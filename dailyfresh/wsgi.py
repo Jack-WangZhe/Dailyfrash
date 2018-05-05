@@ -1,5 +1,5 @@
 """
-WSGI config for pytest project.
+WSGI config for dailyfresh project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "pytest.settings")
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "dailyfresh.settings")
 
 application = get_wsgi_application()
